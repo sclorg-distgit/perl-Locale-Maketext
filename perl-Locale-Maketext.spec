@@ -1,8 +1,8 @@
 %{?scl:%scl_package perl-Locale-Maketext}
 
 Name:           %{?scl_prefix}perl-Locale-Maketext
-Version:        1.27
-Release:        2%{?dist}
+Version:        1.28
+Release:        1%{?dist}
 Summary:        Framework for localization
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -78,6 +78,9 @@ find $RPM_BUILD_ROOT -type f -name .packlist -delete
 %{_mandir}/man3/*
 
 %changelog
+* Wed Jul 27 2016 Petr Pisar <ppisar@redhat.com> - 1.28-1
+- 1.28 bump
+
 * Mon Jul 11 2016 Petr Pisar <ppisar@redhat.com> - 1.27-2
 - SCL
 
